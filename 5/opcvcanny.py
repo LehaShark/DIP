@@ -57,7 +57,7 @@ def HystTresh(img):
     maxthreshrat = 0.2
     lowthreshrat = 0.15
     maxthresh = np.max(hyst) * maxthreshrat
-    lowthresh =  maxthresh * lowthreshrat
+    lowthresh = maxthresh * lowthreshrat
     x = 0.1
     pred = 0.0
 
